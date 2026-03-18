@@ -6,6 +6,7 @@ import { Layout } from "../components/layout/Layout";
 import { Home } from "../pages/home/Home";
 import { SignIn } from "../pages/signin/SignIn";
 import { SignUp } from "../pages/signup/SignUp";
+import { Error } from "../pages/error/Error";
 
 export const router = createBrowserRouter([
     {
@@ -24,5 +25,11 @@ export const router = createBrowserRouter([
                 path: "/sign-up",
             },
         ]
+    },
+    {
+        element: <Error 
+            statusCode="404"
+        />,
+        path: "/*"
     }
 ]);
