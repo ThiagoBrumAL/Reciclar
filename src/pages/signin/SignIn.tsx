@@ -1,4 +1,4 @@
-export const Home = () => {
+export const SignIn = () => {
     return (
         <div>
             <h1
@@ -7,7 +7,7 @@ export const Home = () => {
                     leading-10 text-xl
                 "
             >
-                Home Page
+                Sign-in
             </h1>
         </div>
     )

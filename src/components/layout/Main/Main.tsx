@@ -9,6 +9,7 @@ export const Main = ({ children }: MainProps) => {
         <main
             className="
                 flex-1 flex flex-col justify-center items-center
+                font-inter bg-zinc-100
             "
         >
             { children }
