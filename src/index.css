@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+  --primary-blue-color: #00009C;
+  --primary-pink-color: #F519EA;
+}

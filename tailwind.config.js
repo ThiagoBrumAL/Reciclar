@@ -7,7 +7,7 @@ export default {
         openSans: ["Open Sans, sans-serif"],
         inter: ["Inter, sans-serif"],
         roboto: ["Roboto, sans-serif"]
-      }
+      },
     },
   },
   plugins: [],
